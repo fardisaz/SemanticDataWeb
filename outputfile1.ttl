@@ -1,0 +1,229 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+[] ns1:AccountingEntryTypeNameCode "1" ;
+    ns1:AccountingJournalIdentifier "FF" ;
+    ns1:AccountingJournalName "Object Ordered" ;
+    ns1:ActionCode "1" ;
+    ns1:AllowanceOrChargeCodeQualifier "H" ;
+    ns1:AllowanceOrChargeIdentificationCode "6" ;
+    ns1:AllowanceOrChargeIdentifier "" ;
+    ns1:AssociationAssignedCode "EAN008" ;
+    ns1:CalculationSequenceCode "8" ;
+    ns1:CarrierIdentification "" ;
+    ns1:CarrierName "Lufthansa Airline" ;
+    ns1:ChangeReasonDescriptionCode "AB" ;
+    ns1:CharacteristicDescription "" ;
+    ns1:CharacteristicDescriptionCode "34567-12" ;
+    ns1:CharacteristicRelevanceCode "2" ;
+    ns1:CityName "Fairview" ;
+    ns1:ClassTypeCode "11" ;
+    ns1:CodeListIdentification "" ;
+    ns1:CodeListIdentificationCode "",
+        "1" ;
+    ns1:CodeListResponsibleAagencyCode "5" ;
+    ns1:CodeListResponsibleAgencyCode "",
+        "1",
+        "2",
+        "5",
+        "9" ;
+    ns1:CodeListResponsibleAgencyCoded "5" ;
+    ns1:CommunicationAddressCodeQualifier "AD" ;
+    ns1:CommunicationAddressIdentifier "512" ;
+    ns1:CommunicationMeansTypeCode "" ;
+    ns1:ComputerEnvironmentDetailsCodeQualifier "3" ;
+    ns1:ComputerEnvironmentName "Ubuntu" ;
+    ns1:ComputerEnvironmentNameCode "" ;
+    ns1:ContactFunctionCode "AA" ;
+    ns1:ContactIdentifier "15" ;
+    ns1:ControlTotalQuantity "1" ;
+    ns1:ControlTotalTypeCodeQualifier "2" ;
+    ns1:ControllingAgencyCoded "UN" ;
+    ns1:CountryIdentifier "001",
+        "US" ;
+    ns1:CountryNameCode "US" ;
+    ns1:CountryOfOriginIdentifier "001" ;
+    ns1:CountryOfOriginNameCode "4",
+        "6" ;
+    ns1:CountrySubdivisionIdentifier "CA" ;
+    ns1:CurrencyExchangeRate "" ;
+    ns1:CurrencyIdentificationCode "" ;
+    ns1:CurrencyTypeCodeQualifier "18" ;
+    ns1:CurrencyUsageCodeQualifier "",
+        "3" ;
+    ns1:DangerousGoodsRegulationsCode "ADR" ;
+    ns1:DataFormatDescriptionCode "ASCII" ;
+    ns1:DateOrTimeOrPeriodFormatCode "102" ;
+    ns1:DateOrTimeOrPeriodFunctionCodeQualifier "137" ;
+    ns1:DateOrTimeOrPeriodText "20181110" ;
+    ns1:DeliveryInstructionCode "CD" ;
+    ns1:DeliveryOrTransportTermsDescriptionCode "1" ;
+    ns1:DeliveryOrTransportTermsFunctionCode "5" ;
+    ns1:DeliveryPlanCommitmentLevelCode "12" ;
+    ns1:DepartmentOrEmployeeNameCode "15" ;
+    ns1:DescriptionFormatCode "A",
+        "F",
+        "S" ;
+    ns1:DespatchPatternCode "5" ;
+    ns1:DespatchPatternTimingCode "F" ;
+    ns1:DiscrepancyNatureIdentificationCode "AA" ;
+    ns1:DocumentIdentifier "4768" ;
+    ns1:DocumentLineIdentifier "" ;
+    ns1:DocumentName "" ;
+    ns1:DocumentNameCode "220" ;
+    ns1:DutyOrTaxOrFeeFunctionCodeQualifier "6" ;
+    ns1:DutyOrTaxOrFeeTypeName "" ;
+    ns1:DutyOrTaxOrFeeTypeNameCode "AAE" ;
+    ns1:DutyRegimeTypeCode "8" ;
+    ns1:EquipmentIdentifier "" ;
+    ns1:EquipmentSizeAndTypeDescription "90*120" ;
+    ns1:EquipmentSizeAndTypeDescriptionCode "12" ;
+    ns1:EquipmentStatusCode "2" ;
+    ns1:EquipmentSupplierCode "1" ;
+    ns1:EquipmentTypeCodeQualifier "AK" ;
+    ns1:EventTimeReferenceCode "9" ;
+    ns1:ExcessTransportationReasonCode "" ;
+    ns1:ExchangeRateCurrencyMarketIdentifier "CIE" ;
+    ns1:FileFormatName "text(.txt)" ;
+    ns1:FileName "order.txt" ;
+    ns1:FreeText "Free Text One",
+        "Free Text Three",
+        "Free Text Two" ;
+    ns1:FreeTextDescriptionCode "" ;
+    ns1:FreeTextFunctionCode "" ;
+    ns1:FrequencyCode "B" ;
+    ns1:FullOrEmptyIndicatorCode "5" ;
+    ns1:HandlingInstructionDescription "It Should be in dry environment" ;
+    ns1:HandlingInstructionDescriptionCode "2" ;
+    ns1:HazardIdentificationCode "66" ;
+    ns1:HazardousMaterialCategoryName "" ;
+    ns1:HazardousMaterialCategoryNameCode "" ;
+    ns1:ItemCharacteristicCode "2" ;
+    ns1:ItemDescription "",
+        "Item description one",
+        "Item description three",
+        "Ordering Message" ;
+    ns1:ItemDescriptionCode "" ;
+    ns1:ItemIdentifier "331896-42" ;
+    ns1:ItemTypeIdentificationCode "AA",
+        "VN" ;
+    ns1:LanguageNameCode "Item description four",
+        "Item description two" ;
+    ns1:LineItemIdentifier "1" ;
+    ns1:LocationFunctionCodeQualifier "3160" ;
+    ns1:LocationName "" ;
+    ns1:LocationNameCode "" ;
+    ns1:MaintenanceOperationCode "1" ;
+    ns1:MarkingInstructionsCode "17",
+        "23" ;
+    ns1:MeansOfTransportJourneyIdentifier "Airplane" ;
+    ns1:MeasuredAttributeCode "AAC" ;
+    ns1:MeasurementPurposeCodeQualifier "AAB" ;
+    ns1:MeasurementSignificanceCode "9" ;
+    ns1:MeasurementUnitCode "",
+        "Euro" ;
+    ns1:MessageFunctionCode "9" ;
+    ns1:MessageReferenceNumber "SSDD1" ;
+    ns1:MessageReleaseNumber "03B" ;
+    ns1:MessageType "ORDERS" ;
+    ns1:MessageVersionNumber "D" ;
+    ns1:MonetaryAmount "1290" ;
+    ns1:MonetaryAmountTypeCodeQualifier "256" ;
+    ns1:NameAndAdressDescription "" ;
+    ns1:NonDiscreteMeasurementName "" ;
+    ns1:NonDiscreteMeasurementNameCode "19",
+        "7" ;
+    ns1:NumberOfSegmentInAMessage "10" ;
+    ns1:ObjectIdentificationCodeQualifier "",
+        "AB" ;
+    ns1:ObjectIdentifier "",
+        "34567-12" ;
+    ns1:ObjectTypeCodeQualifier "9" ;
+    ns1:PackageTypeDescriptionCode "" ;
+    ns1:PackagesQuantity "1" ;
+    ns1:PackagingDangerLevelCode "2" ;
+    ns1:PackagingLevelCode "3" ;
+    ns1:PackagingRelatedDescriptionCode "4" ;
+    ns1:PackagingTermsAndConditionsCode "15" ;
+    ns1:PartyFunctionCodeQualifier "AI",
+        "BY" ;
+    ns1:PartyIdentifier "5412345000176" ;
+    ns1:PartyName "Auto Company" ;
+    ns1:PaymentConditionsCode "1" ;
+    ns1:PaymentGuaranteeMeansCode "" ;
+    ns1:PaymentMeansCode "" ;
+    ns1:PaymentTermsDescriptionIdentifier "5" ;
+    ns1:PaymentTermsTypeCodeQualifier "72" ;
+    ns1:Percentage "" ;
+    ns1:PercentageBasisIdentificatonCoded "1" ;
+    ns1:PercentageTypeCodeQualifier "5044" ;
+    ns1:PeriodTypeCode "6M" ;
+    ns1:PostalIdentificationCode "94168" ;
+    ns1:PriceAmount "1290" ;
+    ns1:PriceCodeQualifier "AAA" ;
+    ns1:PriceMultiplierRate "23" ;
+    ns1:PriceMultiplierTypeCodeQualifier "CSD" ;
+    ns1:PriceSpecificationCode "" ;
+    ns1:PriceTypeCode "Euro" ;
+    ns1:ProcessStageCodeQualifier "1" ;
+    ns1:ProcessStagesActualQuantity "4" ;
+    ns1:ProcessStagesQuantity "2" ;
+    ns1:ProcessTypeDescriptionCode "8" ;
+    ns1:ProcessingIndicatorDescription "" ;
+    ns1:ProcessingIndicatorDescriptionCode "6" ;
+    ns1:ProcessingInformationCodeQualifier "2" ;
+    ns1:ProductIdentifierCodeQualifier "5" ;
+    ns1:Quantity "5" ;
+    ns1:QuantityTypeCodeQualifier "1",
+        "7" ;
+    ns1:RangeTypeCodeQualifier "13" ;
+    ns1:RateTypeCodeQualifier "7" ;
+    ns1:ReferenceCodeQualifier "1018" ;
+    ns1:ReferenceIdentifier "" ;
+    ns1:ReleaseIdentifier "2016" ;
+    ns1:RequirementOrConditionDescription "" ;
+    ns1:RequirementOrConditionDescriptionIdentifier "3" ;
+    ns1:ReturnablePackageFreightPaymentResponsibilityCode "ZZZ" ;
+    ns1:ReturnablePackageLoadContentsCode "10" ;
+    ns1:RevisionIdentifier "" ;
+    ns1:SectionIdentification "S" ;
+    ns1:SectorAreaIdentificationCodeQualifier "4" ;
+    ns1:SetTypeCodeQualifier "3" ;
+    ns1:SettlementMeansCode "13" ;
+    ns1:ShipmentFlashpointDegree "" ;
+    ns1:ShippingMarksDescription "Do Not Drop-Fragile" ;
+    ns1:SpecialConditionCode "3" ;
+    ns1:SpecialServiceDescriptionCode "AAE" ;
+    ns1:StatusCategoryCode "7" ;
+    ns1:StatusDescription "To be Done" ;
+    ns1:StatusDescriptionCode "1",
+        "113" ;
+    ns1:StreetAndNumberOrPostOfficeBoxIdentifier "123 Main Street" ;
+    ns1:SurfaceOrLayerCode "AF" ;
+    ns1:TermsTimeRelationCode "11" ;
+    ns1:TextSubjectCodeQualifier "AAA" ;
+    ns1:TradeClassCode "AD" ;
+    ns1:TransitDirectionIndicatorCode "SB" ;
+    ns1:TransportChargesPaymentMethodCode "AD" ;
+    ns1:TransportMeansDescriptionCode "" ;
+    ns1:TransportMeansIdentificationNameIdentifier "" ;
+    ns1:TransportMeansOwnershipIndicatorCode "3" ;
+    ns1:TransportModeName "Aerial" ;
+    ns1:TransportModeNameCode "22" ;
+    ns1:TransportStageCodeQualifier "34" ;
+    ns1:TypeOfPackages "" ;
+    ns1:UnitPriceBasisQuantity "",
+        "30" ;
+    ns1:UnitPriceBasisRate "60" ;
+    ns1:UnitedNationsDangerousGoodsIdentifier "" ;
+    ns1:VarianceQuantity "" ;
+    ns1:VersionIdentifier "",
+        "16.04",
+        "2018" .
+
+

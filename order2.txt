@@ -1,0 +1,53 @@
+UNH+SSDD1+ORDERS:D:03B:UN:EAN008’
+BGM+220:1:1+4768+9’
+DTM+137:20181110:102’
+PAI+1:::1:2’
+ALI+001+8+3+6+4’
+GIR+3+::1’
+FTX+AAA+++Free Text One:Free Text Two:Free Text Three’
+NAD+BY+5412345000176::9++Auto Company+123 Main Street+Fairview+CA+94168+US’
+LIN+1+1+331896-43:VN’
+IMD+A+2:1:1+::::Item description one:Item description two’
+IMD+F+2:1:1+::::Item description three:Item description four’
+RFF+1018::::’
+LOC+3160+::5:’
+FII+AI’
+DOC+220::5:’
+CTA+AA+15’
+COM+512:AD’
+TAX+6+AAE:::’
+MOA+256:1290::18:113’
+CUX+3::18+++CIE’
+PCD+5044::1::5+1’
+PYT+72+5::5+9+11+6M’
+RJL+FF::5:Object Ordered+1::5’
+TDT+34+Airplane+22:Aerial++::5:Lufthansa Airline+SB+++3’
+PAC+1+3:4:15+::5:+S::AA+ZZZ:10’
+MEA+AAB+AAC:9:19:++AF’
+PCI+23+Do Not Drop-Fragile’
+GIN+AB+34567-12’
+EQD+AK+::5:US+12::5:90*120+1+2+5+17’
+HAN+2::5:It Should be in dry environment+::5:’
+SCC+12+CD+B:5:F’
+APR+AD+23:CSD’
+RNG+13’
+ALC+H+:6+13+8+AAE::5’
+RTE+7:60:30:+1’
+RCS+4+3::5:+1+001’
+DGS+ADR+66+++2’
+EFI+order.txt:Ordering Message+text(.txt):2018:ASCII’
+CED+3+::5:Ubuntu:16.04:2016:34567-12’
+PIA+5’
+GEI+2+6::5:+8’
+QVR+:7+AA+AB::5’
+MTD+9+1’
+CCI+11+AAC:9:7:+34567-12::5::+2’
+CAV+3::5’
+STS+7::5+1::5:To be Done’
+TOD+5+AD+1::5’
+STG+1+2+4’
+QTY+1:3’
+PRI+AAA:1000:Euro:::Euro’
+UNS+S’
+CNT+2:1’
+UNT+10+SSDD1’

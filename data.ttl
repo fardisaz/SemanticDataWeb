@@ -1,0 +1,69 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix ns1: <http://example.org/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+
+
+
+ns1:Product1 ns1:Identifier "331896-42";
+	     ns1:AvailableInStock "1000"^^xsd:positiveInteger;
+	     ns1:ProductionProcess ns1:Process1 .
+
+ns1:Product2 ns1:Identifier "331896-43";
+	     ns1:AvailableInStock "20"^^xsd:positiveInteger;
+	     ns1:ProductionProcess ns1:Process2 .
+
+ns1:Product3 ns1:Identifier "331896-44";
+	     ns1:AvailableInStock "0"^^xsd:positiveInteger;
+	     ns1:ProductionProcess ns1:Process3 .
+
+
+
+
+ns1:Process1 ns1:Supplier ns1:Supplier1;
+             ns1:ProductionLine ns1:ProductionLine1 .
+
+ns1:Process2 ns1:Supplier ns1:Supplier2;
+             ns1:ProductionLine ns1:ProductionLine2 .
+
+ns1:Process3 ns1:Supplier ns1:Supplier1;
+	     ns1:Supplier ns1:Supplier3;
+             ns1:ProductionLine ns1:ProductionLine3 .
+
+
+
+
+
+ns1:ProductionLine1 ns1:Available "True";
+		    ns1:ProductionTimePerItem "6"^^xsd:positiveInteger;
+		    ns1:Machines ns1:M1;
+		    ns1:Machines ns1:M2 .
+		    
+ns1:ProductionLine2 ns1:Available "True";
+		    ns1:ProductionTimePerItem "1"^^xsd:positiveInteger;
+		    ns1:Machines ns1:M2;
+		    ns1:Machines ns1:M3 .
+
+ns1:ProductionLine3 ns1:Available "True";
+                    ns1:ProductionTimePerItem "3"^^xsd:positiveInteger;
+		    ns1:Machines ns1:M3;
+		    ns1:Machines ns1:M4 .
+
+
+
+
+ns1:M1 ns1:isAvailable "False";
+       ns1:FreeIn "45"^^xsd:positiveInteger .
+
+ns1:M2 ns1:isAvailable "True";
+       ns1:FreeIn "0"^^xsd:positiveInteger .
+
+ns1:M3 ns1:isAvailable "True";
+       ns1:FreeIn "0"^^xsd:positiveInteger .
+
+ns1:M4 ns1:isAvailable "False";
+       ns1:FreeIn "10"^^xsd:positiveInteger .
